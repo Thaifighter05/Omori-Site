@@ -1,0 +1,386 @@
+@font-face {
+    font-family: Omori;
+    src: url(OMORI_GAME2.ttf);
+}
+
+
+
+
+
+body {
+    background-image: url(./PicMap/Omori_family.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+main {
+    color: rgb(2, 1, 1);
+    width: 80%;
+
+    padding: 1.5rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+main p {
+    font-family: Omori;
+    width: 60ch;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.container {
+    max-width: 1140px;
+    background-color: transparent;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Omori;
+    margin: 0;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+
+.navbar {
+    float: left;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 1px;
+
+    background-color: rgba(245, 215, 238, 0.276);
+
+    color: #fff;
+
+}
+
+.nav-links a {
+
+    color: #ffffff;
+
+}
+
+
+.logo {
+
+    font-size: 32px;
+
+}
+
+.menu {
+
+    display: flex;
+
+    gap: 2em;
+
+    font-size: 18px;
+
+}
+
+.menu li:hover {
+
+    background-color: rgb(235, 157, 214);
+
+    border-radius: 5px;
+
+    transition: 0.3s ease;
+
+}
+
+.menu li {
+
+    padding: 5px 14px;
+
+}
+
+.services {
+
+    position: relative;
+
+}
+
+.dropdown {
+
+    background-color: rgb(235, 157, 214);
+
+    padding: 1em 0;
+
+    position: absolute;
+
+    display: none;
+
+    border-radius: 8px;
+
+    top: 35px;
+
+}
+
+.dropdown li+li {
+
+    margin-top: 10px;
+
+}
+
+.dropdown li {
+
+    padding: 0.5em 1em;
+
+    width: 8em;
+
+    text-align: center;
+
+}
+
+.dropdown li:hover {
+
+    background-color: #9a31a0;
+
+}
+
+.services:hover .dropdown {
+
+    display: block;
+
+
+}
+
+.home {
+    position: relative;
+}
+
+.dropdown2 {
+
+    background-color: rgb(235, 157, 214);
+
+    padding: 1em 0;
+
+    position: absolute;
+
+    display: none;
+
+    border-radius: 8px;
+
+    top: 35px;
+
+}
+
+.dropdown2 li+li {
+
+    margin-top: 10px;
+
+}
+
+.dropdown2 li {
+
+    padding: 0.5em 1em;
+
+    width: 8em;
+
+    text-align: center;
+
+}
+
+.dropdown2 li:hover {
+
+    background-color: #9a31a0;
+
+}
+
+.home:hover .dropdown2 {
+    display: block;
+}
+
+.contact {
+    position: relative;
+}
+
+.dropdown3 {
+
+    background-color: rgb(235, 157, 214);
+
+    padding: 1em 0;
+
+    position: absolute;
+
+    display: none;
+
+    border-radius: 8px;
+
+    top: 35px;
+
+}
+
+.dropdown3 li+li {
+
+    margin-top: 10px;
+
+}
+
+.dropdown3 li {
+
+    padding: 0.5em 1em;
+
+    width: 8em;
+
+    text-align: center;
+
+}
+
+.dropdown3 li:hover {
+
+    background-color: #9a31a0;
+
+}
+
+.contact:hover .dropdown3 {
+    display: block;
+}
+
+.about {
+    position: relative;
+}
+
+.dropdown4 {
+
+    background-color: rgb(235, 157, 214);
+
+    padding: 1em 0;
+
+    position: absolute;
+
+    display: none;
+
+    border-radius: 8px;
+
+    top: 35px;}
+
+    .dropdown4 li+li {
+
+        margin-top: 10px;
+    
+    }
+
+    .dropdown4 li {
+
+        padding: 0.5em 1em;
+    
+        width: 8em;
+    
+        text-align: center;
+    
+    }
+
+    .dropdown4 li:hover {
+
+        background-color: #9a31a0;
+    
+    }
+
+    .about:hover .dropdown4 {
+        display: block;
+    }
+
+header {
+    float: right;
+    color: rgb(2, 1, 1);
+    width: 90%;
+    text-align: center;
+    padding: 100px 15px;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.669);
+    margin-bottom: 20px;
+}
+
+.section1 {
+    float: right;
+    color: rgb(2, 1, 1);
+    width: 90%;
+    text-align: center;
+    padding: 50px 15px;
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.669);
+    margin-bottom: 20px;
+    }
+.section1 .content {
+float: left;
+width: 100%;
+margin-top: 60px;
+}
+
+.section1 .content .card {
+width: 23%;
+float: left;
+padding: 0px 10px;
+}
+
+.section1 .content .card .box{
+    background-color: transparent;
+    font-size: 30px;
+    color: #fff;
+    padding: 60px 15px;
+}
+
+.section2 {
+    float: right;
+    color: rgb(2, 1, 1);
+    width: 90%;
+    text-align: center;
+    padding: 50px 10px; 
+    background-color: rgba(255, 255, 255, 0.669);
+    margin-bottom: 20px;
+    }
+
+.section2 .content {
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    }
+.section2 .content .left {
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+    }
+.section2 .content .left .card {
+    padding: 0px 15px;
+    }
+
+.section2 .content .right {
+    width: 30%;
+    float: left;
+    padding: 0px 10px;
+    }
+
+
+.section2 .content .right .card{
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    }
+footer {
+     float: right;
+    color: rgb(2, 1, 1);
+    width: 90%;
+    text-align: center;
+    padding: 50px 15px;
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.669);
+    margin-bottom: 20px;
+        }
