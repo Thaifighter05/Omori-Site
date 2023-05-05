@@ -33,7 +33,14 @@ h1 {
     margin: 0;
 }
 
+main {
+    font-family: Omori;
+    font-size: 1.6vw;
+}
 
+main p {
+    font-family: Omori;
+}
 
 .clear {
     clear: both;
@@ -53,7 +60,7 @@ h1 {
 
     padding: 1px;
 
-    background-color: rgba(245, 215, 238, 0.276);
+    background-color: rgba(245, 215, 238, 0.646);
 
     color: #fff;
 
@@ -286,6 +293,7 @@ h1 {
     }
 
 header {
+    font-family: Omori;
     float: right;
     color: rgb(2, 1, 1);
     width: 90%;
