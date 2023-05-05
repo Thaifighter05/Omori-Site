@@ -326,6 +326,7 @@ padding: 0px 10px;
     padding: 60px 15px;
 }
 
+
 .section2 {
     float: right;
     color: rgb(2, 1, 1);
@@ -342,7 +343,7 @@ padding: 0px 10px;
     margin-top: 60px;
     }
 .section2 .content .left {
-    width: 50%;
+    width: 15%;
     float: left;
     padding: 0px 10px;
     }
@@ -351,13 +352,49 @@ padding: 0px 10px;
     }
 
 .section2 .content .right {
+    width: 15%;
+    float: left;
+    padding: 0px 10px;
+    }
+
+
+.section3 .content .right .card{
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    }
+
+.section3 {
+    float: right;
+    color: rgb(2, 1, 1);
+    width: 90%;
+    text-align: center;
+    padding: 50px 10px; 
+    background-color: rgba(255, 255, 255, 0.669);
+    margin-bottom: 20px;
+    }
+
+.section3 .content {
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    }
+.section3 .content .left {
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+    }
+.section3 .content .left .card {
+    padding: 0px 15px;
+    }
+
+.section3 .content .right {
     width: 30%;
     float: left;
     padding: 0px 10px;
     }
 
 
-.section2 .content .right .card{
+.section3 .content .right .card{
     padding: 0px 15px;
     margin-bottom: 20px;
     }
